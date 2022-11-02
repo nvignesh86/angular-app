@@ -1,0 +1,30 @@
+.user-container{
+    display: flex;
+    background-color: rgb(148, 148, 201);
+    margin-top: 10px;
+    width: 450px;
+    border-radius: 10px;
+}
+.user-img-container{
+    width: 20%;
+    padding: 10px;
+}
+.user-img{
+    border-radius: 70px;
+    width: 80px;
+}
+.user-label-container{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.user-row{
+    display: flex;
+}
+.user-column-label{
+    width: 35%;
+}
+.user-column{
+    width: 65%;
+}

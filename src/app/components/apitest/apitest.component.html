@@ -1,0 +1,9 @@
+<div class="api-test-container">
+<div>API Test</div>
+<button (click)="getUserData()"> Click to Get User Data </button>
+
+<div *ngFor="let user of userList">
+    <user-comp [user]="user"></user-comp>
+</div>
+</div>
+

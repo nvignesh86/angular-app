@@ -1,0 +1,7 @@
+.header{
+    background-color: #aaccff;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 60px;
+}
